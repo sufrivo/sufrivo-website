@@ -4,3 +4,5 @@ test('homepage has a locally hosted accessible image',()=>{const js=fs.readFileS
 test('secondary original Figma photograph exists',()=>{const jpeg=fs.readFileSync(path.join(root,'assets/images/restaurant-atmosphere.jpg'));assert.equal(jpeg[0],255);assert.equal(jpeg[1],216);});
 
 test('homepage product illustrations and Home navigation exist',()=>{const js=fs.readFileSync(path.join(root,'assets/js/site.js'),'utf8');assert.match(js,/\['home','products','industries'/);for(const slug of ['pos','kds','ordering','kiosk','reservations','staff','management','platform']){const svg=fs.readFileSync(path.join(root,'assets/images/products',slug+'.svg'),'utf8');assert.match(svg,/<svg/);}});
+
+test('all eight Figma-generated product photographs are present',()=>{const js=fs.readFileSync(path.join(root,'assets/js/site.js'),'utf8');assert.match(js,/\.jpg/);for(const slug of ['pos','kds','ordering','kiosk','reservations','staff','management','platform']){const b=fs.readFileSync(path.join(root,'assets/images/products',slug+'.jpg'));assert.equal(b[0],255);assert.equal(b[1],216);}});
