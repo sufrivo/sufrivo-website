@@ -31,3 +31,6 @@ Figma provides two original restaurant photographs; the published site currently
 
 ## Deployment
 The existing GitHub Pages workflow builds Jekyll on `main`. The quality workflow runs on pull requests and pushes. Check Pages environment configuration and the published URL after merging.
+
+## Accessibility polish
+A skip-to-content navigation link is included for keyboard users. Mobile navigation targets have increased spacing.
