@@ -17,3 +17,6 @@
 .product-card-image{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;object-position:center;border-radius:12px;margin-bottom:16px}@media(max-width:600px){.product-card-image{height:auto;aspect-ratio:3/2}}
 
 .capability-card{overflow:hidden}.capability-image{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:12px;margin-bottom:16px}.capability-grid{align-items:stretch}
+
+/* Editorial photography and expanded About page */
+.capability-image,.photo-card img,.about-feature-photo{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:12px}.photo-card{overflow:hidden}.photo-card img{margin-bottom:16px}.photo-grid{align-items:stretch}.about-story{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr);gap:32px;align-items:center}.about-story .section-head{margin:0}.about-story .section-head p{max-width:68ch}.about-story .section-head p+p{margin-top:16px}.about-feature-photo{max-height:460px}.about-disclaimer{padding-top:0}.about-principles .card{min-height:210px}@media(max-width:800px){.about-story{grid-template-columns:1fr}.about-feature-photo{max-height:360px}}
