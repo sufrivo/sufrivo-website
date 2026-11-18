@@ -15,3 +15,5 @@
 
 /* Original AI photography generated and placed in the Sufrivo Figma file */
 .product-card-image{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;object-position:center;border-radius:12px;margin-bottom:16px}@media(max-width:600px){.product-card-image{height:auto;aspect-ratio:3/2}}
+
+.capability-card{overflow:hidden}.capability-image{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:12px;margin-bottom:16px}.capability-grid{align-items:stretch}
