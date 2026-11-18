@@ -6,3 +6,5 @@ test('secondary original Figma photograph exists',()=>{const jpeg=fs.readFileSyn
 test('homepage product illustrations and Home navigation exist',()=>{const js=fs.readFileSync(path.join(root,'assets/js/site.js'),'utf8');assert.match(js,/\['home','products','industries'/);for(const slug of ['pos','kds','ordering','kiosk','reservations','staff','management','platform']){const svg=fs.readFileSync(path.join(root,'assets/images/products',slug+'.svg'),'utf8');assert.match(svg,/<svg/);}});
 
 test('all eight Figma-generated product photographs are present',()=>{const js=fs.readFileSync(path.join(root,'assets/js/site.js'),'utf8');assert.match(js,/\.jpg/);for(const slug of ['pos','kds','ordering','kiosk','reservations','staff','management','platform']){const b=fs.readFileSync(path.join(root,'assets/images/products',slug+'.jpg'));assert.equal(b[0],255);assert.equal(b[1],216);}});
+
+test('photographic sections and descriptive About content are wired',()=>{const s=fs.readFileSync(path.join(root,'assets/js/site.js'),'utf8');assert.match(s,/const aboutPage=/);assert.match(s,/const photoCards=/);assert.match(s,/assets\/images\/about/);assert.match(s,/\.jpg/);});
