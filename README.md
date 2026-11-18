@@ -34,3 +34,6 @@ The existing GitHub Pages workflow builds Jekyll on `main`. The quality workflow
 
 ## Accessibility polish
 A skip-to-content navigation link is included for keyboard users. Mobile navigation targets have increased spacing.
+
+## Read-only scope
+This is a public marketing site. It intentionally has no CMS, administrator interface, login, or editing capabilities. Demo lead submission requires a separately approved HTTPS backend endpoint; without one the request is downloaded locally rather than silently sent.
