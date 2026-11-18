@@ -12,3 +12,6 @@
 
 /* Homepage product imagery authored in the Sufrivo Figma image-card frame */
 .product-card-image{display:block;width:100%;height:156px;object-fit:contain;object-position:left center;margin:0 0 14px}.card:has(.product-card-image){overflow:hidden}.card:has(.product-card-image) .number{font-size:12px}@media(max-width:600px){.product-card-image{height:118px}}
+
+/* Original AI photography generated and placed in the Sufrivo Figma file */
+.product-card-image{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;object-position:center;border-radius:12px;margin-bottom:16px}@media(max-width:600px){.product-card-image{height:auto;aspect-ratio:3/2}}
