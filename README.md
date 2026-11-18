@@ -37,3 +37,6 @@ A skip-to-content navigation link is included for keyboard users. Mobile navigat
 
 ## Read-only scope
 This is a public marketing site. It intentionally has no CMS, administrator interface, login, or editing capabilities. Demo lead submission requires a separately approved HTTPS backend endpoint; without one the request is downloaded locally rather than silently sent.
+
+## Original Figma photography
+The homepage uses assets/images/restaurant-hero.jpg and other marketing page heroes use assets/images/restaurant-atmosphere.jpg. Both are original JPEG assets from Figma. No original product-specific screenshots were found in the file.
