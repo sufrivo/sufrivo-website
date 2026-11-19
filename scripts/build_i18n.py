@@ -40,12 +40,11 @@ def build():
             out=re.sub(r'<meta property="og:url" content="[^"]*">','<meta property="og:url" content="'+url(locale,route)+'">',out,count=1)
             out=re.sub(r'<meta property="og:title" content="[^"]*">','<meta property="og:title" content="'+html.escape(page_title,quote=True)+'">',out,count=1)
             out=re.sub(r'<meta property="og:description" content="[^"]*">','<meta property="og:description" content="'+html.escape(page_desc,quote=True)+'">',out,count=1)
-            out=re.sub(r'(<script defer src=")[^"]+(/assets/js/site.js")',lambda m:m.group(1)+('../'*(len(route.split('/')) if route else 0)+'../').replace('//','/')+'assets/js/site.js"',out)
-            out=re.sub(r'(<link rel="stylesheet" href=")[^"]+(/assets/css/site.css")',lambda m:m.group(1)+('../'*(len(route.split('/')) if route else 0)+'../')+'assets/css/site.css"',out)
-            # Keep all relative assets pointing to the repository root.
+            # Rewrite root-relative-to-page asset paths exactly once for each locale depth.
             depth=len(route.split('/')) if route else 0
             prefix='../'*(depth+1)
-            out=re.sub(r'(href|src)="((?:\.\./)+|\./)(assets/)',lambda m:m.group(1)+'="'+prefix+m.group(3),out)
+            out=re.sub(r'((?:href|src)=")(?:(?:\\.\\./)+|\\./)(assets/[^"]+)"',
+                       lambda m:m.group(1)+prefix+m.group(2)+'"',out)
             out=out.replace('<head>','<head>'+('' if localized else '<meta name="robots" content="noindex,follow">'),1)
             # Only advertise English translations until full body copy is translated.
             if localized:
