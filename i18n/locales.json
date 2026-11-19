@@ -1,0 +1,232 @@
+{
+  "languages": {
+    "en": [
+      "English",
+      "Restaurant management software",
+      "Connected restaurant operations, POS, kitchen display systems, QR ordering, reservations and staff management.",
+      "Explore restaurant software",
+      "Book a Demo"
+    ],
+    "ar": [
+      "العربية",
+      "برنامج إدارة المطاعم",
+      "عمليات مطاعم مترابطة، ونقاط بيع، وشاشات مطبخ، وطلبات عبر رمز QR، وحجوزات وإدارة الموظفين.",
+      "استكشف برامج المطاعم",
+      "احجز عرضاً توضيحياً"
+    ],
+    "bn": [
+      "বাংলা",
+      "রেস্তোরাঁ ব্যবস্থাপনা সফটওয়্যার",
+      "সমন্বিত রেস্তোরাঁ পরিচালনা, পয়েন্ট অব সেল, কিচেন ডিসপ্লে, কিউআর অর্ডারিং, রিজার্ভেশন এবং কর্মী ব্যবস্থাপনা।",
+      "রেস্তোরাঁ সফটওয়্যার দেখুন",
+      "ডেমো বুক করুন"
+    ],
+    "hi": [
+      "हिन्दी",
+      "रेस्तराँ प्रबंधन सॉफ़्टवेयर",
+      "रेस्तराँ संचालन, पीओएस, किचन डिस्प्ले, क्यूआर ऑर्डरिंग, आरक्षण और कर्मचारी प्रबंधन के लिए एकीकृत समाधान।",
+      "रेस्तराँ सॉफ़्टवेयर देखें",
+      "डेमो बुक करें"
+    ],
+    "es": [
+      "Español",
+      "Software de gestión de restaurantes",
+      "Operaciones conectadas, punto de venta, pantallas de cocina, pedidos por QR, reservas y gestión del personal.",
+      "Explorar software para restaurantes",
+      "Reservar una demostración"
+    ],
+    "fr": [
+      "Français",
+      "Logiciel de gestion de restaurant",
+      "Opérations connectées, caisse, écrans de cuisine, commandes par QR code, réservations et gestion du personnel.",
+      "Découvrir les logiciels de restauration",
+      "Réserver une démo"
+    ],
+    "pt": [
+      "Português",
+      "Software de gestão de restaurantes",
+      "Operações integradas, ponto de venda, telas de cozinha, pedidos por QR code, reservas e gestão de equipes.",
+      "Explorar software para restaurantes",
+      "Agendar demonstração"
+    ],
+    "zh": [
+      "简体中文",
+      "餐厅管理软件",
+      "连接餐厅运营、收银系统、厨房显示屏、二维码点餐、预订和员工管理。",
+      "探索餐厅软件",
+      "预约演示"
+    ]
+  },
+  "paths": [
+    "",
+    "products",
+    "products/pos",
+    "products/kds",
+    "products/ordering",
+    "products/kiosk",
+    "products/reservations",
+    "products/staff",
+    "products/management",
+    "industries",
+    "integrations",
+    "pricing",
+    "about",
+    "demo",
+    "contact",
+    "help"
+  ],
+  "products": {
+    "pos": {
+      "en": "Restaurant POS system",
+      "ar": "نظام نقاط البيع للمطاعم",
+      "bn": "রেস্তোরাঁ পয়েন্ট অব সেল সিস্টেম",
+      "hi": "रेस्तराँ पीओएस सिस्टम",
+      "es": "Sistema TPV para restaurantes",
+      "fr": "Système de caisse pour restaurant",
+      "pt": "Sistema POS para restaurantes",
+      "zh": "餐厅收银系统"
+    },
+    "kds": {
+      "en": "Kitchen display system for restaurants",
+      "ar": "نظام عرض المطبخ للمطاعم",
+      "bn": "রেস্তোরাঁর কিচেন ডিসপ্লে সিস্টেম",
+      "hi": "रेस्तराँ किचन डिस्प्ले सिस्टम",
+      "es": "Sistema de pantallas de cocina",
+      "fr": "Système d’affichage en cuisine",
+      "pt": "Sistema de exibição de cozinha",
+      "zh": "餐厅厨房显示系统"
+    },
+    "ordering": {
+      "en": "QR code ordering system for restaurants",
+      "ar": "نظام الطلب عبر رمز QR للمطاعم",
+      "bn": "রেস্তোরাঁর কিউআর কোড অর্ডারিং সিস্টেম",
+      "hi": "रेस्तराँ क्यूआर कोड ऑर्डरिंग सिस्टम",
+      "es": "Sistema de pedidos por código QR",
+      "fr": "Système de commande par QR code",
+      "pt": "Sistema de pedidos por QR code",
+      "zh": "餐厅二维码点餐系统"
+    },
+    "kiosk": {
+      "en": "Self-service restaurant kiosk software",
+      "ar": "برنامج أكشاك الطلب الذاتي للمطاعم",
+      "bn": "রেস্তোরাঁর স্বয়ংক্রিয় অর্ডার কিয়স্ক সফটওয়্যার",
+      "hi": "रेस्तराँ सेल्फ-सर्विस कियोस्क सॉफ़्टवेयर",
+      "es": "Software de quioscos de autoservicio",
+      "fr": "Logiciel de borne de commande",
+      "pt": "Software de quiosque de autoatendimento",
+      "zh": "餐厅自助点餐终端软件"
+    },
+    "reservations": {
+      "en": "Restaurant reservations and waitlist software",
+      "ar": "برنامج حجوزات المطاعم وقوائم الانتظار",
+      "bn": "রেস্তোরাঁ বুকিং ও অপেক্ষমাণ তালিকা সফটওয়্যার",
+      "hi": "रेस्तराँ आरक्षण और प्रतीक्षा सूची सॉफ़्टवेयर",
+      "es": "Software de reservas y listas de espera",
+      "fr": "Logiciel de réservation et liste d’attente",
+      "pt": "Software de reservas e lista de espera",
+      "zh": "餐厅预订与候位管理软件"
+    },
+    "staff": {
+      "en": "Restaurant staff scheduling software",
+      "ar": "برنامج جدولة موظفي المطاعم",
+      "bn": "রেস্তোরাঁ কর্মীদের শিডিউলিং সফটওয়্যার",
+      "hi": "रेस्तराँ कर्मचारी शेड्यूलिंग सॉफ़्टवेयर",
+      "es": "Software de turnos para restaurantes",
+      "fr": "Logiciel de planning du personnel",
+      "pt": "Software de escalas para restaurantes",
+      "zh": "餐厅员工排班软件"
+    },
+    "management": {
+      "en": "Multi-location restaurant management software",
+      "ar": "برنامج إدارة المطاعم متعددة الفروع",
+      "bn": "একাধিক শাখার রেস্তোরাঁ ব্যবস্থাপনা সফটওয়্যার",
+      "hi": "मल्टी-लोकेशन रेस्तराँ प्रबंधन सॉफ़्टवेयर",
+      "es": "Software de gestión de restaurantes con varias sedes",
+      "fr": "Logiciel de gestion de restaurants multisites",
+      "pt": "Software de gestão de restaurantes com várias unidades",
+      "zh": "多门店餐厅管理软件"
+    }
+  },
+  "pageTitles": {
+    "products": [
+      "Restaurant software products",
+      "منتجات برامج المطاعم",
+      "রেস্তোরাঁ সফটওয়্যার পণ্য",
+      "रेस्तराँ सॉफ़्टवेयर उत्पाद",
+      "Productos de software para restaurantes",
+      "Produits logiciels de restauration",
+      "Produtos de software para restaurantes",
+      "餐厅软件产品"
+    ],
+    "industries": [
+      "Restaurant software by business type",
+      "برامج المطاعم حسب نوع النشاط",
+      "ব্যবসার ধরন অনুযায়ী রেস্তোরাঁ সফটওয়্যার",
+      "व्यवसाय के अनुसार रेस्तराँ सॉफ़्टवेयर",
+      "Software por tipo de restaurante",
+      "Logiciels par type de restaurant",
+      "Software por tipo de restaurante",
+      "按餐厅类型选择软件"
+    ],
+    "integrations": [
+      "Restaurant software integrations",
+      "تكاملات برامج المطاعم",
+      "রেস্তোরাঁ সফটওয়্যার ইন্টিগ্রেশন",
+      "रेस्तराँ सॉफ़्टवेयर इंटीग्रेशन",
+      "Integraciones de software para restaurantes",
+      "Intégrations de logiciels de restauration",
+      "Integrações de software para restaurantes",
+      "餐厅软件集成"
+    ],
+    "pricing": [
+      "Restaurant software pricing",
+      "أسعار برامج المطاعم",
+      "রেস্তোরাঁ সফটওয়্যারের মূল্য",
+      "रेस्तराँ सॉफ़्टवेयर की कीमतें",
+      "Precios del software para restaurantes",
+      "Tarifs des logiciels de restauration",
+      "Preços de software para restaurantes",
+      "餐厅软件价格"
+    ],
+    "about": [
+      "About Sufrivo",
+      "عن سوفريفو",
+      "সুফ্রিভো সম্পর্কে",
+      "सुफ्रिवो के बारे में",
+      "Acerca de Sufrivo",
+      "À propos de Sufrivo",
+      "Sobre a Sufrivo",
+      "关于 Sufrivo"
+    ],
+    "demo": [
+      "Request a Sufrivo demo",
+      "اطلب عرضاً توضيحياً",
+      "সুফ্রিভো ডেমো অনুরোধ করুন",
+      "सुफ्रिवो डेमो का अनुरोध करें",
+      "Solicitar una demostración",
+      "Demander une démonstration",
+      "Solicitar demonstração",
+      "预约 Sufrivo 演示"
+    ],
+    "contact": [
+      "Contact Sufrivo",
+      "تواصل مع سوفريفو",
+      "সুফ্রিভোর সাথে যোগাযোগ",
+      "सुफ्रिवो से संपर्क करें",
+      "Contactar con Sufrivo",
+      "Contacter Sufrivo",
+      "Entre em contato com a Sufrivo",
+      "联系 Sufrivo"
+    ],
+    "help": [
+      "Restaurant software help",
+      "مساعدة برامج المطاعم",
+      "রেস্তোরাঁ সফটওয়্যার সহায়তা",
+      "रेस्तराँ सॉफ़्टवेयर सहायता",
+      "Ayuda de software para restaurantes",
+      "Aide pour les logiciels de restauration",
+      "Ajuda para software de restaurantes",
+      "餐厅软件帮助"
+    ]
+  }
+}
