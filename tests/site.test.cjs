@@ -28,3 +28,7 @@ test('SEO canonical metadata, sitemap and robots are configured',()=>{const site
 
 test('performance: homepage hero image has high priority and explicit dimensions',()=>{const s=fs.readFileSync(path.join(root,'assets/js/site.js'),'utf8');assert.match(s,/restaurant-hero\.jpg/);assert.match(s,/fetchpriority="high"/);assert.match(s,/width="960" height="720"/);});
 test('performance: generated Pages image optimizer and preload are configured',()=>{const w=fs.readFileSync(path.join(root,'.github/workflows/pages.yml'),'utf8');const h=fs.readFileSync(path.join(root,'index.html'),'utf8');assert.match(w,/scripts\/optimize_site\.py/);assert.match(h,/rel="preload" as="image"/);});
+
+
+test('i18n: all eleven languages are configured with SEO metadata',()=>{const config=JSON.parse(fs.readFileSync(path.join(root,'i18n/locales.json'),'utf8'));assert.deepEqual(Object.keys(config.locales).sort(),['en','ar','bn','hi','ur','ml','ta','fr','es','de','ms'].sort());for(const [code,locale] of Object.entries(config.locales)){assert.ok(locale.title&&locale.description,code);assert.equal(locale.dir,['ar','ur'].includes(code)?'rtl':'ltr')}});
+test('i18n: desktop and mobile language selectors are connected',()=>{const s=fs.readFileSync(path.join(root,'assets/js/site.js'),'utf8');for(const code of ['en','ar','bn','hi','ur','ml','ta','fr','es','de','ms'])assert.ok(s.includes(code),code);assert.match(s,/language-picker/);assert.match(s,/mobile-language-picker/);assert.match(s,/parts.splice\(localeIndex,0,code\)/);assert.match(s,/document.documentElement.dir=isRTL/)});

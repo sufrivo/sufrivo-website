@@ -1,0 +1,72 @@
+{
+  "baseUrl": "https://sufrivo.github.io/sufrivo-website/",
+  "defaultLocale": "en",
+  "locales": {
+    "en": {
+      "name": "English",
+      "dir": "ltr",
+      "title": "Restaurant Management Software & Connected POS | Sufrivo",
+      "description": "Explore connected restaurant management software, POS, kitchen displays, QR ordering, reservations and staff operations."
+    },
+    "ar": {
+      "name": "العربية",
+      "dir": "rtl",
+      "title": "برنامج إدارة المطاعم ونقاط البيع المتكاملة | سوفريفو",
+      "description": "اكتشف حلول إدارة المطاعم ونقاط البيع وشاشات المطبخ والطلب عبر رمز QR والحجوزات وإدارة الموظفين."
+    },
+    "bn": {
+      "name": "বাংলা",
+      "dir": "ltr",
+      "title": "রেস্তোরাঁ ব্যবস্থাপনা সফটওয়্যার ও পিওএস | সুফ্রিভো",
+      "description": "রেস্তোরাঁ ব্যবস্থাপনা, পয়েন্ট অব সেল, কিচেন ডিসপ্লে, কিউআর অর্ডার, রিজার্ভেশন ও কর্মী পরিচালনার সমন্বিত সমাধান জানুন।"
+    },
+    "hi": {
+      "name": "हिन्दी",
+      "dir": "ltr",
+      "title": "रेस्तराँ प्रबंधन सॉफ़्टवेयर और पीओएस | Sufrivo",
+      "description": "रेस्तराँ प्रबंधन, पीओएस, किचन डिस्प्ले, क्यूआर ऑर्डरिंग, आरक्षण और कर्मचारियों के लिए जुड़े हुए समाधान जानें।"
+    },
+    "ur": {
+      "name": "اردو",
+      "dir": "rtl",
+      "title": "ریستوران مینجمنٹ سافٹ ویئر اور پی او ایس | سفریوو",
+      "description": "ریستوران مینجمنٹ، پی او ایس، کچن ڈسپلے، کیو آر آرڈرنگ، ریزرویشن اور عملے کے مربوط حل دریافت کریں۔"
+    },
+    "ml": {
+      "name": "മലയാളം",
+      "dir": "ltr",
+      "title": "റെസ്റ്റോറന്റ് മാനേജ്മെന്റ് സോഫ്റ്റ്‌വെയറും POS ഉം | Sufrivo",
+      "description": "റെസ്റ്റോറന്റ് മാനേജ്മെന്റ്, POS, കിച്ചൺ ഡിസ്പ്ലേ, QR ഓർഡറിംഗ്, റിസർവേഷൻ, ജീവനക്കാരുടെ പ്രവർത്തനങ്ങൾ എന്നിവയ്ക്കുള്ള സംവിധാനങ്ങൾ അറിയൂ."
+    },
+    "ta": {
+      "name": "தமிழ்",
+      "dir": "ltr",
+      "title": "உணவக மேலாண்மை மென்பொருள் மற்றும் POS | Sufrivo",
+      "description": "உணவக மேலாண்மை, விற்பனை முனையம், சமையலறை திரை, QR ஆர்டர், முன்பதிவு மற்றும் பணியாளர் செயல்பாடுகளுக்கான தீர்வுகளை அறிக."
+    },
+    "fr": {
+      "name": "Français",
+      "dir": "ltr",
+      "title": "Logiciel de gestion de restaurant et caisse POS | Sufrivo",
+      "description": "Découvrez la gestion de restaurant, la caisse POS, les écrans de cuisine, les commandes QR, les réservations et la gestion du personnel."
+    },
+    "es": {
+      "name": "Español",
+      "dir": "ltr",
+      "title": "Software de gestión de restaurantes y TPV | Sufrivo",
+      "description": "Descubre soluciones de gestión de restaurantes, TPV, pantallas de cocina, pedidos QR, reservas y gestión del personal."
+    },
+    "de": {
+      "name": "Deutsch",
+      "dir": "ltr",
+      "title": "Restaurantmanagement-Software und Kassensystem | Sufrivo",
+      "description": "Entdecken Sie vernetzte Restaurantsoftware für Kassensysteme, Küchenmonitore, QR-Bestellungen, Reservierungen und Personalplanung."
+    },
+    "ms": {
+      "name": "Bahasa Melayu",
+      "dir": "ltr",
+      "title": "Perisian Pengurusan Restoran dan Sistem POS | Sufrivo",
+      "description": "Terokai perisian pengurusan restoran, sistem POS, paparan dapur, pesanan kod QR, tempahan meja dan pengurusan kakitangan."
+    }
+  }
+}
