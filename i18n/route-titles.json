@@ -1,0 +1,562 @@
+{
+  "ar": {
+    "": {
+      "title": "الصفحة الرئيسية | Sufrivo"
+    },
+    "products": {
+      "title": "المنتجات | Sufrivo"
+    },
+    "pricing": {
+      "title": "الأسعار | Sufrivo"
+    },
+    "industries": {
+      "title": "القطاعات | Sufrivo"
+    },
+    "integrations": {
+      "title": "التكاملات | Sufrivo"
+    },
+    "about": {
+      "title": "من نحن | Sufrivo"
+    },
+    "contact": {
+      "title": "اتصل بنا | Sufrivo"
+    },
+    "demo": {
+      "title": "احجز عرضاً | Sufrivo"
+    },
+    "help": {
+      "title": "مركز المساعدة | Sufrivo"
+    },
+    "privacy": {
+      "title": "سياسة الخصوصية | Sufrivo"
+    },
+    "terms": {
+      "title": "شروط الاستخدام | Sufrivo"
+    },
+    "products/pos": {
+      "title": "نقاط البيع | Sufrivo"
+    },
+    "products/kds": {
+      "title": "شاشات المطبخ | Sufrivo"
+    },
+    "products/ordering": {
+      "title": "الطلب الرقمي | Sufrivo"
+    },
+    "products/kiosk": {
+      "title": "أكشاك الخدمة الذاتية | Sufrivo"
+    },
+    "products/reservations": {
+      "title": "الحجوزات والطوابير | Sufrivo"
+    },
+    "products/staff": {
+      "title": "إدارة الموظفين | Sufrivo"
+    },
+    "products/management": {
+      "title": "إدارة المطاعم | Sufrivo"
+    }
+  },
+  "bn": {
+    "": {
+      "title": "হোম | Sufrivo"
+    },
+    "products": {
+      "title": "পণ্যসমূহ | Sufrivo"
+    },
+    "pricing": {
+      "title": "মূল্য | Sufrivo"
+    },
+    "industries": {
+      "title": "খাতসমূহ | Sufrivo"
+    },
+    "integrations": {
+      "title": "ইন্টিগ্রেশন | Sufrivo"
+    },
+    "about": {
+      "title": "আমাদের সম্পর্কে | Sufrivo"
+    },
+    "contact": {
+      "title": "যোগাযোগ | Sufrivo"
+    },
+    "demo": {
+      "title": "ডেমো বুক করুন | Sufrivo"
+    },
+    "help": {
+      "title": "সহায়তা কেন্দ্র | Sufrivo"
+    },
+    "privacy": {
+      "title": "গোপনীয়তা নীতি | Sufrivo"
+    },
+    "terms": {
+      "title": "ব্যবহারের শর্তাবলি | Sufrivo"
+    },
+    "products/pos": {
+      "title": "পয়েন্ট অব সেল | Sufrivo"
+    },
+    "products/kds": {
+      "title": "কিচেন ডিসপ্লে | Sufrivo"
+    },
+    "products/ordering": {
+      "title": "ডিজিটাল অর্ডার | Sufrivo"
+    },
+    "products/kiosk": {
+      "title": "সেলফ-সার্ভিস কিয়স্ক | Sufrivo"
+    },
+    "products/reservations": {
+      "title": "রিজার্ভেশন ও সারি | Sufrivo"
+    },
+    "products/staff": {
+      "title": "কর্মী ব্যবস্থাপনা | Sufrivo"
+    },
+    "products/management": {
+      "title": "রেস্তোরাঁ ব্যবস্থাপনা | Sufrivo"
+    }
+  },
+  "hi": {
+    "": {
+      "title": "मुखपृष्ठ | Sufrivo"
+    },
+    "products": {
+      "title": "उत्पाद | Sufrivo"
+    },
+    "pricing": {
+      "title": "मूल्य | Sufrivo"
+    },
+    "industries": {
+      "title": "उद्योग | Sufrivo"
+    },
+    "integrations": {
+      "title": "इंटीग्रेशन | Sufrivo"
+    },
+    "about": {
+      "title": "हमारे बारे में | Sufrivo"
+    },
+    "contact": {
+      "title": "संपर्क | Sufrivo"
+    },
+    "demo": {
+      "title": "डेमो बुक करें | Sufrivo"
+    },
+    "help": {
+      "title": "सहायता केंद्र | Sufrivo"
+    },
+    "privacy": {
+      "title": "गोपनीयता नीति | Sufrivo"
+    },
+    "terms": {
+      "title": "उपयोग की शर्तें | Sufrivo"
+    },
+    "products/pos": {
+      "title": "पॉइंट ऑफ़ सेल | Sufrivo"
+    },
+    "products/kds": {
+      "title": "किचन डिस्प्ले | Sufrivo"
+    },
+    "products/ordering": {
+      "title": "डिजिटल ऑर्डरिंग | Sufrivo"
+    },
+    "products/kiosk": {
+      "title": "सेल्फ़-सर्विस कियोस्क | Sufrivo"
+    },
+    "products/reservations": {
+      "title": "आरक्षण और कतार | Sufrivo"
+    },
+    "products/staff": {
+      "title": "कर्मचारी प्रबंधन | Sufrivo"
+    },
+    "products/management": {
+      "title": "रेस्तराँ प्रबंधन | Sufrivo"
+    }
+  },
+  "ur": {
+    "": {
+      "title": "ہوم | Sufrivo"
+    },
+    "products": {
+      "title": "مصنوعات | Sufrivo"
+    },
+    "pricing": {
+      "title": "قیمتیں | Sufrivo"
+    },
+    "industries": {
+      "title": "شعبے | Sufrivo"
+    },
+    "integrations": {
+      "title": "انضمام | Sufrivo"
+    },
+    "about": {
+      "title": "ہمارے بارے میں | Sufrivo"
+    },
+    "contact": {
+      "title": "رابطہ | Sufrivo"
+    },
+    "demo": {
+      "title": "ڈیمو بک کریں | Sufrivo"
+    },
+    "help": {
+      "title": "مدد کا مرکز | Sufrivo"
+    },
+    "privacy": {
+      "title": "رازداری کی پالیسی | Sufrivo"
+    },
+    "terms": {
+      "title": "استعمال کی شرائط | Sufrivo"
+    },
+    "products/pos": {
+      "title": "پوائنٹ آف سیل | Sufrivo"
+    },
+    "products/kds": {
+      "title": "کچن ڈسپلے | Sufrivo"
+    },
+    "products/ordering": {
+      "title": "ڈیجیٹل آرڈرنگ | Sufrivo"
+    },
+    "products/kiosk": {
+      "title": "سیلف سروس کیوسک | Sufrivo"
+    },
+    "products/reservations": {
+      "title": "ریزرویشن اور قطار | Sufrivo"
+    },
+    "products/staff": {
+      "title": "عملے کا انتظام | Sufrivo"
+    },
+    "products/management": {
+      "title": "ریستوران مینجمنٹ | Sufrivo"
+    }
+  },
+  "ml": {
+    "": {
+      "title": "ഹോം | Sufrivo"
+    },
+    "products": {
+      "title": "ഉൽപ്പന്നങ്ങൾ | Sufrivo"
+    },
+    "pricing": {
+      "title": "നിരക്കുകൾ | Sufrivo"
+    },
+    "industries": {
+      "title": "വ്യവസായങ്ങൾ | Sufrivo"
+    },
+    "integrations": {
+      "title": "ഇന്റഗ്രേഷനുകൾ | Sufrivo"
+    },
+    "about": {
+      "title": "ഞങ്ങളെക്കുറിച്ച് | Sufrivo"
+    },
+    "contact": {
+      "title": "ബന്ധപ്പെടുക | Sufrivo"
+    },
+    "demo": {
+      "title": "ഡെമോ ബുക്ക് ചെയ്യുക | Sufrivo"
+    },
+    "help": {
+      "title": "സഹായ കേന്ദ്രം | Sufrivo"
+    },
+    "privacy": {
+      "title": "സ്വകാര്യതാ നയം | Sufrivo"
+    },
+    "terms": {
+      "title": "ഉപയോഗ നിബന്ധനകൾ | Sufrivo"
+    },
+    "products/pos": {
+      "title": "പോയിന്റ് ഓഫ് സെയിൽ | Sufrivo"
+    },
+    "products/kds": {
+      "title": "കിച്ചൺ ഡിസ്പ്ലേ | Sufrivo"
+    },
+    "products/ordering": {
+      "title": "ഡിജിറ്റൽ ഓർഡറിംഗ് | Sufrivo"
+    },
+    "products/kiosk": {
+      "title": "സെൽഫ് സർവീസ് കിയോസ്ക് | Sufrivo"
+    },
+    "products/reservations": {
+      "title": "റിസർവേഷനും ക്യൂവും | Sufrivo"
+    },
+    "products/staff": {
+      "title": "ജീവനക്കാരുടെ മാനേജ്മെന്റ് | Sufrivo"
+    },
+    "products/management": {
+      "title": "റെസ്റ്റോറന്റ് മാനേജ്മെന്റ് | Sufrivo"
+    }
+  },
+  "ta": {
+    "": {
+      "title": "முகப்பு | Sufrivo"
+    },
+    "products": {
+      "title": "தயாரிப்புகள் | Sufrivo"
+    },
+    "pricing": {
+      "title": "விலை | Sufrivo"
+    },
+    "industries": {
+      "title": "துறைகள் | Sufrivo"
+    },
+    "integrations": {
+      "title": "ஒருங்கிணைப்புகள் | Sufrivo"
+    },
+    "about": {
+      "title": "எங்களைப் பற்றி | Sufrivo"
+    },
+    "contact": {
+      "title": "தொடர்பு | Sufrivo"
+    },
+    "demo": {
+      "title": "டெமோ முன்பதிவு | Sufrivo"
+    },
+    "help": {
+      "title": "உதவி மையம் | Sufrivo"
+    },
+    "privacy": {
+      "title": "தனியுரிமைக் கொள்கை | Sufrivo"
+    },
+    "terms": {
+      "title": "பயன்பாட்டு விதிமுறைகள் | Sufrivo"
+    },
+    "products/pos": {
+      "title": "விற்பனை முனையம் | Sufrivo"
+    },
+    "products/kds": {
+      "title": "சமையலறை திரை | Sufrivo"
+    },
+    "products/ordering": {
+      "title": "டிஜிட்டல் ஆர்டர் | Sufrivo"
+    },
+    "products/kiosk": {
+      "title": "சுய சேவை கியோஸ்க் | Sufrivo"
+    },
+    "products/reservations": {
+      "title": "முன்பதிவு மற்றும் வரிசை | Sufrivo"
+    },
+    "products/staff": {
+      "title": "பணியாளர் மேலாண்மை | Sufrivo"
+    },
+    "products/management": {
+      "title": "உணவக மேலாண்மை | Sufrivo"
+    }
+  },
+  "fr": {
+    "": {
+      "title": "Accueil | Sufrivo"
+    },
+    "products": {
+      "title": "Produits | Sufrivo"
+    },
+    "pricing": {
+      "title": "Tarifs | Sufrivo"
+    },
+    "industries": {
+      "title": "Secteurs | Sufrivo"
+    },
+    "integrations": {
+      "title": "Intégrations | Sufrivo"
+    },
+    "about": {
+      "title": "À propos | Sufrivo"
+    },
+    "contact": {
+      "title": "Contact | Sufrivo"
+    },
+    "demo": {
+      "title": "Réserver une démo | Sufrivo"
+    },
+    "help": {
+      "title": "Centre d'aide | Sufrivo"
+    },
+    "privacy": {
+      "title": "Politique de confidentialité | Sufrivo"
+    },
+    "terms": {
+      "title": "Conditions d'utilisation | Sufrivo"
+    },
+    "products/pos": {
+      "title": "Caisse enregistreuse POS | Sufrivo"
+    },
+    "products/kds": {
+      "title": "Écrans de cuisine | Sufrivo"
+    },
+    "products/ordering": {
+      "title": "Commande numérique | Sufrivo"
+    },
+    "products/kiosk": {
+      "title": "Borne libre-service | Sufrivo"
+    },
+    "products/reservations": {
+      "title": "Réservations et file d'attente | Sufrivo"
+    },
+    "products/staff": {
+      "title": "Gestion du personnel | Sufrivo"
+    },
+    "products/management": {
+      "title": "Gestion de restaurant | Sufrivo"
+    }
+  },
+  "es": {
+    "": {
+      "title": "Inicio | Sufrivo"
+    },
+    "products": {
+      "title": "Productos | Sufrivo"
+    },
+    "pricing": {
+      "title": "Precios | Sufrivo"
+    },
+    "industries": {
+      "title": "Sectores | Sufrivo"
+    },
+    "integrations": {
+      "title": "Integraciones | Sufrivo"
+    },
+    "about": {
+      "title": "Acerca de | Sufrivo"
+    },
+    "contact": {
+      "title": "Contacto | Sufrivo"
+    },
+    "demo": {
+      "title": "Reservar una demo | Sufrivo"
+    },
+    "help": {
+      "title": "Centro de ayuda | Sufrivo"
+    },
+    "privacy": {
+      "title": "Política de privacidad | Sufrivo"
+    },
+    "terms": {
+      "title": "Términos de uso | Sufrivo"
+    },
+    "products/pos": {
+      "title": "Punto de venta TPV | Sufrivo"
+    },
+    "products/kds": {
+      "title": "Pantallas de cocina | Sufrivo"
+    },
+    "products/ordering": {
+      "title": "Pedidos digitales | Sufrivo"
+    },
+    "products/kiosk": {
+      "title": "Quiosco de autoservicio | Sufrivo"
+    },
+    "products/reservations": {
+      "title": "Reservas y lista de espera | Sufrivo"
+    },
+    "products/staff": {
+      "title": "Gestión del personal | Sufrivo"
+    },
+    "products/management": {
+      "title": "Gestión de restaurantes | Sufrivo"
+    }
+  },
+  "de": {
+    "": {
+      "title": "Startseite | Sufrivo"
+    },
+    "products": {
+      "title": "Produkte | Sufrivo"
+    },
+    "pricing": {
+      "title": "Preise | Sufrivo"
+    },
+    "industries": {
+      "title": "Branchen | Sufrivo"
+    },
+    "integrations": {
+      "title": "Integrationen | Sufrivo"
+    },
+    "about": {
+      "title": "Über uns | Sufrivo"
+    },
+    "contact": {
+      "title": "Kontakt | Sufrivo"
+    },
+    "demo": {
+      "title": "Demo buchen | Sufrivo"
+    },
+    "help": {
+      "title": "Hilfe-Center | Sufrivo"
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung | Sufrivo"
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen | Sufrivo"
+    },
+    "products/pos": {
+      "title": "Kassensystem | Sufrivo"
+    },
+    "products/kds": {
+      "title": "Küchenmonitore | Sufrivo"
+    },
+    "products/ordering": {
+      "title": "Digitale Bestellungen | Sufrivo"
+    },
+    "products/kiosk": {
+      "title": "Self-Service-Terminal | Sufrivo"
+    },
+    "products/reservations": {
+      "title": "Reservierungen und Warteliste | Sufrivo"
+    },
+    "products/staff": {
+      "title": "Personalverwaltung | Sufrivo"
+    },
+    "products/management": {
+      "title": "Restaurantmanagement | Sufrivo"
+    }
+  },
+  "ms": {
+    "": {
+      "title": "Laman utama | Sufrivo"
+    },
+    "products": {
+      "title": "Produk | Sufrivo"
+    },
+    "pricing": {
+      "title": "Harga | Sufrivo"
+    },
+    "industries": {
+      "title": "Industri | Sufrivo"
+    },
+    "integrations": {
+      "title": "Integrasi | Sufrivo"
+    },
+    "about": {
+      "title": "Tentang kami | Sufrivo"
+    },
+    "contact": {
+      "title": "Hubungi | Sufrivo"
+    },
+    "demo": {
+      "title": "Tempah demo | Sufrivo"
+    },
+    "help": {
+      "title": "Pusat bantuan | Sufrivo"
+    },
+    "privacy": {
+      "title": "Dasar privasi | Sufrivo"
+    },
+    "terms": {
+      "title": "Terma penggunaan | Sufrivo"
+    },
+    "products/pos": {
+      "title": "Sistem POS | Sufrivo"
+    },
+    "products/kds": {
+      "title": "Paparan dapur | Sufrivo"
+    },
+    "products/ordering": {
+      "title": "Pesanan digital | Sufrivo"
+    },
+    "products/kiosk": {
+      "title": "Kiosk layan diri | Sufrivo"
+    },
+    "products/reservations": {
+      "title": "Tempahan dan senarai menunggu | Sufrivo"
+    },
+    "products/staff": {
+      "title": "Pengurusan kakitangan | Sufrivo"
+    },
+    "products/management": {
+      "title": "Pengurusan restoran | Sufrivo"
+    }
+  }
+}
