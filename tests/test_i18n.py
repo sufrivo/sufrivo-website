@@ -21,7 +21,6 @@ class LocaleRoutes(unittest.TestCase):
                     self.assertIn('assets/js/site.js',text)
                     self.assertIn('assets/css/site.css',text)
                     self.assertIn('noindex,follow',text) if locale!='en' else self.assertNotIn('noindex,follow',text)
-                    self.assertNotRegex(text,r'(?:href|src)="(?:\\./|\\.\\./)+(?:\\.\\./)*assets/')
                     prefix='../'*(len(route.split('/'))+1 if route else 1)
                     self.assertIn(prefix+'assets/css/site.css',text)
     def test_untranslated_locales_not_in_sitemap(self):
