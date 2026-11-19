@@ -55,6 +55,18 @@
       "dir": "ltr",
       "title": "Software de gestión de restaurantes y TPV | Sufrivo",
       "description": "Descubre soluciones de gestión de restaurantes, TPV, pantallas de cocina, pedidos QR, reservas y gestión del personal."
+    },
+    "de": {
+      "name": "Deutsch",
+      "dir": "ltr",
+      "title": "Restaurantmanagement-Software und Kassensystem | Sufrivo",
+      "description": "Entdecken Sie vernetzte Restaurantsoftware für Kassensysteme, Küchenmonitore, QR-Bestellungen, Reservierungen und Personalplanung."
+    },
+    "ms": {
+      "name": "Bahasa Melayu",
+      "dir": "ltr",
+      "title": "Perisian Pengurusan Restoran dan Sistem POS | Sufrivo",
+      "description": "Terokai perisian pengurusan restoran, sistem POS, paparan dapur, pesanan kod QR, tempahan meja dan pengurusan kakitangan."
     }
   }
 }
