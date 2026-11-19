@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sufrivo.github.io/sufrivo-website/sitemap.xml
