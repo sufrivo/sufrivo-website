@@ -32,7 +32,7 @@ def build():
             # Do not falsely claim the English body is translated: untranslated pages are noindex.
             localized=locale=='en'
             page_title=(ROUTE_TITLES.get(locale,{}).get(route,{}) or {}).get('title',info['title'] if not route else title)
-            page_desc=info['description'] if locale!='en' else (info['description'] if not route else description)
+            page_desc=(info['description'] if not route else (page_title+' — '+info['description'])) if locale!='en' else (info['description'] if not route else description)
             out=src.replace('<html lang="en"','<html lang="'+locale+'" dir="'+info['dir']+'"',1)
             out=re.sub(r'data-base="[^"]+"','data-base="'+('../'*(len(route.split('/'))+1) if route else '../')+'"',out,count=1)
             out=re.sub(r'<title>.*?</title>','<title>'+html.escape(page_title)+'</title>',out,count=1,flags=re.S)
@@ -41,6 +41,19 @@ def build():
             out=re.sub(r'<meta property="og:url" content="[^"]*">','<meta property="og:url" content="'+url(locale,route)+'">',out,count=1)
             out=re.sub(r'<meta property="og:title" content="[^"]*">','<meta property="og:title" content="'+html.escape(page_title,quote=True)+'">',out,count=1)
             out=re.sub(r'<meta property="og:description" content="[^"]*">','<meta property="og:description" content="'+html.escape(page_desc,quote=True)+'">',out,count=1)
+            # Keep JSON-LD URL and language consistent with the canonical page.
+            def localize_schema(match):
+                try:
+                    payload=json.loads(match.group(1))
+                except (ValueError,TypeError):
+                    return match.group(0)
+                if isinstance(payload,dict):
+                    payload['url']=url(locale,route)
+                    payload['inLanguage']=locale
+                    payload['name']=page_title
+                    payload['description']=page_desc
+                return '<script type="application/ld+json">'+json.dumps(payload,ensure_ascii=False)+'</script>'
+            out=re.sub(r'<script type="application/ld\\+json">(.*?)</script>',localize_schema,out,flags=re.S)
             # Asset paths in source HTML are relative to the source route.
             source_prefix='../'*depth if depth else './'
             for attribute in ('href', 'src'):
