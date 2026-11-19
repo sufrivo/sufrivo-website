@@ -14,7 +14,7 @@ for path in data["paths"]:
         heading=data["products"][product][code] if product in data["products"] else (data["pageTitles"].get(path,[main]*8)[codes.index(code)] if path else main)
         title=f"{heading} | Sufrivo"
         url=origin+code+"/"+(path+"/" if path else "")
-        rel="../../" if not path else "../"*(path.count("/")+2)
+        rel="../" if not path else "../"*(path.count("/")+2)
         alts="".join(f'<link rel="alternate" hreflang="{c}" href="{origin+(c+"/" if c!="en" else "")+(path+"/" if path else "")}">' for c in codes)
         alts+=f'<link rel="alternate" hreflang="x-default" href="{origin+(path+"/" if path else "")}">'
         navigation="".join(f'<a href="{rel}{c}/{path+"/" if path else ""}" lang="{c}">{html.escape(data["languages"][c][0])}</a> ' for c in codes if c!="en")
