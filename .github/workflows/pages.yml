@@ -25,6 +25,10 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
+      - name: Optimize images for web delivery
+        run: |
+          python -m pip install --disable-pip-version-check Pillow==11.3.0
+          python scripts/optimize_site.py
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
