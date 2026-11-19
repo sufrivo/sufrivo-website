@@ -1,0 +1,92 @@
+{
+  "ar": {
+    "Counter and table service, payments and receipts.": "خدمة الطاولات والكاونتر والمدفوعات والإيصالات.",
+    "Coordinate tickets, stations and kitchen service.": "تنسيق الطلبات ومحطات التحضير وخدمة المطبخ.",
+    "QR menus and guest-led ordering.": "قوائم QR وطلبات الضيوف الذاتية.",
+    "Convenient self-ordering experiences.": "تجربة مريحة للطلب الذاتي.",
+    "Waitlists, table availability and guest flow.": "قوائم الانتظار وتوافر الطاولات وتنظيم حركة الضيوف.",
+    "Shift management and team coordination.": "إدارة المناوبات وتنسيق فرق العمل.",
+    "Menu, inventory, analytics and multi-branch operations.": "إدارة القوائم والمخزون والتحليلات والفروع المتعددة."
+  },
+  "bn": {
+    "Counter and table service, payments and receipts.": "কাউন্টার ও টেবিল সেবা, পেমেন্ট এবং রসিদ।",
+    "Coordinate tickets, stations and kitchen service.": "অর্ডার টিকিট, প্রস্তুতি স্টেশন ও রান্নাঘরের কাজ সমন্বয়।",
+    "QR menus and guest-led ordering.": "কিউআর মেনু ও গ্রাহকের নিজস্ব অর্ডার।",
+    "Convenient self-ordering experiences.": "সহজ স্বয়ংক্রিয় অর্ডার অভিজ্ঞতা।",
+    "Waitlists, table availability and guest flow.": "অপেক্ষমাণ তালিকা, টেবিলের প্রাপ্যতা ও অতিথি ব্যবস্থাপনা।",
+    "Shift management and team coordination.": "শিফট পরিচালনা ও দলের সমন্বয়।",
+    "Menu, inventory, analytics and multi-branch operations.": "মেনু, মজুত, বিশ্লেষণ ও একাধিক শাখার কার্যক্রম।"
+  },
+  "hi": {
+    "Counter and table service, payments and receipts.": "काउंटर और टेबल सेवा, भुगतान और रसीदें।",
+    "Coordinate tickets, stations and kitchen service.": "ऑर्डर टिकट, स्टेशन और रसोई सेवा का समन्वय।",
+    "QR menus and guest-led ordering.": "क्यूआर मेनू और अतिथियों द्वारा ऑर्डर।",
+    "Convenient self-ordering experiences.": "सुविधाजनक स्व-सेवा ऑर्डर अनुभव।",
+    "Waitlists, table availability and guest flow.": "प्रतीक्षा सूची, टेबल उपलब्धता और अतिथि प्रबंधन।",
+    "Shift management and team coordination.": "शिफ्ट प्रबंधन और टीम समन्वय।",
+    "Menu, inventory, analytics and multi-branch operations.": "मेनू, इन्वेंटरी, विश्लेषण और कई शाखाओं का संचालन।"
+  },
+  "ur": {
+    "Counter and table service, payments and receipts.": "کاؤنٹر اور ٹیبل سروس، ادائیگیاں اور رسیدیں۔",
+    "Coordinate tickets, stations and kitchen service.": "آرڈر ٹکٹس، اسٹیشنز اور کچن سروس کا رابطہ۔",
+    "QR menus and guest-led ordering.": "QR مینو اور مہمانوں کی خود آرڈرنگ۔",
+    "Convenient self-ordering experiences.": "آسان سیلف سروس آرڈرنگ کا تجربہ۔",
+    "Waitlists, table availability and guest flow.": "انتظار کی فہرست، میزوں کی دستیابی اور مہمانوں کا انتظام۔",
+    "Shift management and team coordination.": "شفٹ مینجمنٹ اور ٹیم کا رابطہ۔",
+    "Menu, inventory, analytics and multi-branch operations.": "مینو، اسٹاک، تجزیات اور متعدد برانچوں کے امور۔"
+  },
+  "ml": {
+    "Counter and table service, payments and receipts.": "കൗണ്ടർ, ടേബിൾ സേവനം, പേയ്‌മെന്റുകൾ, രസീതുകൾ.",
+    "Coordinate tickets, stations and kitchen service.": "ഓർഡർ ടിക്കറ്റുകളും സ്റ്റേഷനുകളും അടുക്കള സേവനവും ഏകോപിപ്പിക്കുക.",
+    "QR menus and guest-led ordering.": "QR മെനുകളും അതിഥികളുടെ നേരിട്ടുള്ള ഓർഡറുകളും.",
+    "Convenient self-ordering experiences.": "സൗകര്യപ്രദമായ സ്വയം ഓർഡർ ചെയ്യൽ.",
+    "Waitlists, table availability and guest flow.": "കാത്തിരിപ്പ് പട്ടിക, ടേബിൾ ലഭ്യത, അതിഥികളുടെ ക്രമീകരണം.",
+    "Shift management and team coordination.": "ഷിഫ്റ്റ് മാനേജ്മെന്റും ടീം ഏകോപനവും.",
+    "Menu, inventory, analytics and multi-branch operations.": "മെനു, സ്റ്റോക്ക്, വിശകലനം, ഒന്നിലധികം ശാഖകളുടെ പ്രവർത്തനം."
+  },
+  "ta": {
+    "Counter and table service, payments and receipts.": "கவுண்டர் மற்றும் மேசை சேவை, கட்டணங்கள், ரசீதுகள்.",
+    "Coordinate tickets, stations and kitchen service.": "ஆர்டர் சீட்டுகள், பணிநிலையங்கள் மற்றும் சமையலறை சேவையை ஒருங்கிணைத்தல்.",
+    "QR menus and guest-led ordering.": "QR மெனுக்கள் மற்றும் விருந்தினர் ஆர்டர்கள்.",
+    "Convenient self-ordering experiences.": "எளிதான சுய சேவை ஆர்டர் அனுபவம்.",
+    "Waitlists, table availability and guest flow.": "காத்திருப்புப் பட்டியல், மேசை கிடைப்பு மற்றும் விருந்தினர் ஓட்டம்.",
+    "Shift management and team coordination.": "பணி நேர மேலாண்மை மற்றும் குழு ஒருங்கிணைப்பு.",
+    "Menu, inventory, analytics and multi-branch operations.": "மெனு, சரக்கு, பகுப்பாய்வு மற்றும் பல கிளைச் செயல்பாடுகள்."
+  },
+  "fr": {
+    "Counter and table service, payments and receipts.": "Service au comptoir et à table, paiements et reçus.",
+    "Coordinate tickets, stations and kitchen service.": "Coordonnez les tickets, les postes et le service en cuisine.",
+    "QR menus and guest-led ordering.": "Menus QR et commandes passées par les clients.",
+    "Convenient self-ordering experiences.": "Une expérience de commande en libre-service pratique.",
+    "Waitlists, table availability and guest flow.": "Listes d'attente, disponibilité des tables et accueil des clients.",
+    "Shift management and team coordination.": "Gestion des horaires et coordination des équipes.",
+    "Menu, inventory, analytics and multi-branch operations.": "Menus, stocks, analyses et opérations multi-établissements."
+  },
+  "es": {
+    "Counter and table service, payments and receipts.": "Servicio en mostrador y mesa, pagos y recibos.",
+    "Coordinate tickets, stations and kitchen service.": "Coordina comandas, estaciones y servicio de cocina.",
+    "QR menus and guest-led ordering.": "Menús QR y pedidos realizados por los clientes.",
+    "Convenient self-ordering experiences.": "Una experiencia cómoda de autoservicio.",
+    "Waitlists, table availability and guest flow.": "Listas de espera, disponibilidad de mesas y flujo de clientes.",
+    "Shift management and team coordination.": "Gestión de turnos y coordinación del equipo.",
+    "Menu, inventory, analytics and multi-branch operations.": "Menús, inventario, análisis y operaciones de varios locales."
+  },
+  "de": {
+    "Counter and table service, payments and receipts.": "Theken- und Tischservice, Zahlungen und Belege.",
+    "Coordinate tickets, stations and kitchen service.": "Bestellungen, Stationen und Küchenservice koordinieren.",
+    "QR menus and guest-led ordering.": "QR-Menüs und selbstständige Gästebestellungen.",
+    "Convenient self-ordering experiences.": "Bequeme Selbstbedienung beim Bestellen.",
+    "Waitlists, table availability and guest flow.": "Wartelisten, Tischverfügbarkeit und Gästeabläufe.",
+    "Shift management and team coordination.": "Schichtplanung und Teamkoordination.",
+    "Menu, inventory, analytics and multi-branch operations.": "Menüs, Lagerbestand, Analysen und standortübergreifender Betrieb."
+  },
+  "ms": {
+    "Counter and table service, payments and receipts.": "Perkhidmatan kaunter dan meja, pembayaran serta resit.",
+    "Coordinate tickets, stations and kitchen service.": "Selaraskan tiket pesanan, stesen dan perkhidmatan dapur.",
+    "QR menus and guest-led ordering.": "Menu QR dan pesanan terus oleh pelanggan.",
+    "Convenient self-ordering experiences.": "Pengalaman pesanan layan diri yang mudah.",
+    "Waitlists, table availability and guest flow.": "Senarai menunggu, ketersediaan meja dan aliran tetamu.",
+    "Shift management and team coordination.": "Pengurusan syif dan penyelarasan pasukan.",
+    "Menu, inventory, analytics and multi-branch operations.": "Menu, inventori, analitik dan operasi berbilang cawangan."
+  }
+}
