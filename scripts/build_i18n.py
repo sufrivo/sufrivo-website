@@ -43,8 +43,9 @@ def build():
             # Rewrite root-relative-to-page asset paths exactly once for each locale depth.
             depth=len(route.split('/')) if route else 0
             prefix='../'*(depth+1)
-            out=re.sub(r'((?:href|src)=")(?:(?:\\.\\./)+|\\./)(assets/[^"]+)"',
-                       lambda m:m.group(1)+prefix+m.group(2)+'"',out)
+            # HTML asset links are relative to the source page; adjust for the extra locale directory.
+            out=re.sub(r'((?:href|src)=")((?:\\.\\./)+|\\./)(assets/[^"]+)"',
+                       lambda m:m.group(1)+'../'+m.group(2)+m.group(3)+'"',out)
             out=out.replace('<head>','<head>'+('' if localized else '<meta name="robots" content="noindex,follow">'),1)
             # Only advertise English translations until full body copy is translated.
             if localized:
