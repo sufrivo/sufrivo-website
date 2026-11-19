@@ -61,31 +61,4 @@ def build():
         SubElement(item,'loc').text=url('en',route)
     (ROOT/'sitemap-i18n.xml').write_bytes(b'<?xml version="1.0" encoding="UTF-8"?>\n'+tostring(root,encoding='utf-8'))
 if __name__=='__main__':
-    build()            # Update JSON-LD to match the actual localized canonical URL and metadata.
-            def rewrite_jsonld(match):
-                try:
-                    data=json.loads(match.group(1))
-                    data.update({'name':page_title,'url':url(locale,route),'description':page_desc,'inLanguage':locale})
-                    return '<script type="application/ld+json">'+json.dumps(data,ensure_ascii=False)+'</script>'
-                except (ValueError,TypeError):
-                    return match.group(0)
-            out=re.sub(r'<script type="application/ld\\+json">(.*?)</script>',rewrite_jsonld,out,flags=re.S)
-            # Rebase asset links by one additional locale directory, without double-rewriting.
-            depth=len(route.split('/')) if route else 0
-            old_prefix='../'*depth if depth else './'
-            for attr in ('href','src'):
-                out=out.replace(attr+'="'+old_prefix+'assets/',attr+'="../'+old_prefix+'assets/')
-            out=out.replace('<head>','<head>'+('' if localized else '<meta name="robots" content="noindex,follow">'),1)
-            # Only advertise English translations until full body copy is translated.
-            if localized:
-                out=out.replace('</head>','<link rel="alternate" hreflang="en" href="'+url('en',route)+'"><link rel="alternate" hreflang="x-default" href="'+BASE+(route+'/' if route else '')+'"></head>',1)
-            out=out.replace('<body ', '<body data-locale="'+locale+'" ',1)
-            target.write_text(out)
-    ns='http://www.sitemaps.org/schemas/sitemap/0.9'
-    root=Element('urlset',{'xmlns':ns})
-    for route in ROUTES:
-        item=SubElement(root,'url')
-        SubElement(item,'loc').text=url('en',route)
-    (ROOT/'sitemap-i18n.xml').write_bytes(b'<?xml version="1.0" encoding="UTF-8"?>\n'+tostring(root,encoding='utf-8'))
-if __name__=='__main__':
     build()

@@ -14,5 +14,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Generate localized routes\n        run: python3 scripts/build_i18n.py\n      - name: Validate generated locale routes and SEO safety\n        run: python3 -m unittest discover -s tests -p 'test_i18n.py'\n      - name: Validate JavaScript and route entrypoints
+      - name: Generate localized routes
+        run: python3 scripts/build_i18n.py
+      - name: Validate generated locale routes and SEO safety
+        run: python3 -m unittest discover -s tests -p 'test_i18n.py'
+      - name: Validate JavaScript and route entrypoints
         run: node --test tests/site.test.cjs
